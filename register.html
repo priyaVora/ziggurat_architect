@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="login.html">Login</a>
+          <a href="register.html">Register</a>
+        </nav>
+      </header>
+    <!-- Use Get, Not Post -->
+    <form method="POST">
+        First Name: <input type="text" name="firstname"><br />
+        Last Name: <input type="text" name="lastname"><br />
+        Email: <input type="email" required name="email"><br />
+        Password: <input type="password" min="5" name="password"><br />
+        Birthday: <input type="date" name="birthday"><br />
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+
+</html>
