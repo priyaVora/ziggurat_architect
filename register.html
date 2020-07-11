@@ -3,18 +3,23 @@
 
 <head>
     <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="login.html">Login</a>
-          <a href="register.html">Register</a>
-        </nav>
-      </header>
+  <nav>
+    <h1 class="titleitem">ZIGGURAT</h1>
+  <div class="bar">  
+  <a class="navitem" href="index.html">HOME</a>
+  <a class="navitem" href="login.html">LOGIN</a>
+  <a class="navitem" href="register.html">REGISTER</a>
+  </div>  
+</nav>
+<br/>
+<br/>
     <!-- Use Get, Not Post -->
-    <form method="POST">
+    <div class="registerform">
+    <form class="register" method="POST">
         First Name: <input type="text" name="firstname"><br />
         Last Name: <input type="text" name="lastname"><br />
         Email: <input type="email" required name="email"><br />
@@ -22,6 +27,7 @@
         Birthday: <input type="date" name="birthday"><br />
         <input type="submit" value="Register">
     </form>
+    </div>
 
 </body>
 
