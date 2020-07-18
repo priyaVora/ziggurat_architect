@@ -25,12 +25,15 @@ nav {
 }
 
 .canvasparent { 
+    background-color: #778899;  
     display: flex;
     justify-content: center;
 }
 
 .myCanvas { 
 background-color:#DCDCDC;
+width: 90%;
+height: 90%;
 }
 
 .registerform {
