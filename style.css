@@ -1,32 +1,27 @@
-html { 
- 
-}
 body { 
     margin:0;
     background-color: #778899;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
+nav { 
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
+
 .bar{
-  background-color: #778899;
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
   align-items: center;
 }
 .navitem { 
     text-decoration: none;
     color:white;
-    padding: 5px;
-    padding-left: 22px;  
-    padding-right: 22px;  
 }
 
 .titleitem { 
    color: white;
-   align-self: flex-start;  
-   margin-left: 2.5%;
+   margin: 1%;
 }
 
 .canvasparent { 
