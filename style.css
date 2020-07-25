@@ -17,23 +17,50 @@ nav {
 .navitem { 
     text-decoration: none;
     color:white;
+    padding-right: 10%;
 }
 
 .titleitem { 
    color: white;
    margin: 1%;
+   padding-left: 10px;
 }
 
-.canvasparent { 
-    background-color: #778899;  
+.cover { 
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 70vh;
 }
 
 .myCanvas { 
 background-color:#DCDCDC;
-width: 90%;
-height: 90%;
+width: 100%;
+height: 100%;
+}
+
+.grid-wrapper { 
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+}
+
+.box > img  { 
+    width: 100%;
+}
+
+.box { 
+    background-color: #444;
+    padding: 60px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer { 
+    height: 5vh;
+    text-align: center;
+    background-color: seagreen;
 }
 
 .registerform {
